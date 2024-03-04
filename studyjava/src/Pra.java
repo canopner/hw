@@ -6,4 +6,15 @@ public class Pra {
             System.out.print(a + "_" + b + " ");
         }
     }
+
+    {
+        System.out.println();
+
+        //while문
+        int count = 0; //초기식
+        while (count < 5) { //조건식
+            System.out.print(count + " ");
+            count++; //증감식
+        }
+    }
 }
