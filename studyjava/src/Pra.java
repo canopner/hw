@@ -1,20 +1,27 @@
 public class Pra {
     public static void main(String[] args) {
-        System.out.println();
-        //멀티 조건식
-        for (int a = 0, b = 0; a < 5 || b < 5; a++, b++) {
-            System.out.print(a + "_" + b + " ");
+        for(int i = 0; i < 10; i++) {
+            System.out.println(i);
+            break;
         }
-    }
 
-    {
+        for(int i = 0; i < 10; i++) {
+            if(i == 5) {
+                break;
+            }
+            System.out.println(i + " ");
+        }
+        System.out.println();
         System.out.println();
 
-        //while문
-        int count = 0; //초기식
-        while (count < 5) { //조건식
-            System.out.print(count + " ");
-            count++; //증감식
+        for(int i = 0; i < 5; i++) {
+            for(int j = 0; j < 5; j++) {
+                if (j == 2) {
+                    break;
+                }
+                System.out.println(i + ", "  + j);
+            }
         }
-    }
+        }
 }
+
